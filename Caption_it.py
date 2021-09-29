@@ -33,7 +33,7 @@ from keras.layers import Input,Dense,Dropout,Embedding,LSTM
 from keras.layers.merge import add 
 from tensorflow.keras.applications.resnet50 import ResNet50,preprocess_input,decode_predictions
 
-
+print("vineeth")
 #Loading the saved model...
 
 model = load_model("./model_9.h5")
